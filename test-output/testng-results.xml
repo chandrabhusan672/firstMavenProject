@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-27T11:36:32 IST" name="Default suite" finished-at="2026-09-27T11:36:37 IST" duration-ms="4594">
+    <groups>
+    </groups>
+    <test started-at="2026-09-27T11:36:32 IST" name="Default test" finished-at="2026-09-27T11:36:37 IST" duration-ms="4594">
+      <class name="com.api.testing.SoapAPI">
+        <test-method signature="SoapAPIAddition()[pri:0, instance:com.api.testing.SoapAPI@34123d65]" started-at="2026-09-27T11:36:32 IST" name="SoapAPIAddition" finished-at="2026-09-27T11:36:35 IST" duration-ms="2886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SoapAPIAddition -->
+        <test-method signature="SoapAPIDivide()[pri:0, instance:com.api.testing.SoapAPI@34123d65]" started-at="2026-09-27T11:36:35 IST" name="SoapAPIDivide" finished-at="2026-09-27T11:36:36 IST" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SoapAPIDivide -->
+        <test-method signature="SoapAPIMultiply()[pri:0, instance:com.api.testing.SoapAPI@34123d65]" started-at="2026-09-27T11:36:36 IST" name="SoapAPIMultiply" finished-at="2026-09-27T11:36:36 IST" duration-ms="529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SoapAPIMultiply -->
+        <test-method signature="SoapAPISubtract()[pri:0, instance:com.api.testing.SoapAPI@34123d65]" started-at="2026-09-27T11:36:36 IST" name="SoapAPISubtract" finished-at="2026-09-27T11:36:37 IST" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SoapAPISubtract -->
+      </class> <!-- com.api.testing.SoapAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
