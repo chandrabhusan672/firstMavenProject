@@ -1,4 +1,5 @@
 package com.api.testing;
+import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 
 import java.util.HashMap;
@@ -10,19 +11,29 @@ import org.testng.annotations.Test;
 import com.github.javafaker.Faker;
 
 import groovy.util.logging.Log;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Step;
+import io.qameta.allure.Story;
 import io.restassured.specification.RequestSpecification;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 import java.util.HashMap;
 
+@Epic("E2E API Chanining")
+@Feature("This features shows the create update and delete user in app")
 public class APIChaining {
 
 	// Create user 
 	
-	
 	int extractedID;
-	
+
+	@Story("User story: Creating users randomly")
+	@Step("Enter name email gemder status")
+	@Severity(SeverityLevel.CRITICAL)
 	@Test (priority = 1)
 	public void CreateUser () {
 		
@@ -58,6 +69,10 @@ public class APIChaining {
 	
 	// Update the users details 
 	
+
+	@Story("User story: Updating the users ")
+	@Step("Enter the data to update the data")
+	@Severity(SeverityLevel.CRITICAL)
 	@Test (priority = 2)
 	public void UdpateUser () {
 		
@@ -93,6 +108,9 @@ public class APIChaining {
 	// Delete User
 
 	@Test (priority = 3)
+	@Story("User story: delete the users ")
+	@Step("Enter the id to delete the users")
+	@Severity(SeverityLevel.BLOCKER)
 public void DeleteUsers () {
 		
 		
