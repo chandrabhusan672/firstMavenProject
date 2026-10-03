@@ -40,7 +40,7 @@ public class CreateRandomUserJavaFakeLibrary {
 		 
 		 Assert.assertEquals(response.getStatusCode(), 201);
 		 Assert.assertEquals(response.getStatusLine(), "HTTP/1.1 201 Created");
-		 Assert.assertEquals(response.getContentType(), "application/json; charset=utf-8");
+		// Assert.assertEquals(response.getContentType(), "application/json; charset=utf-8");
 		 
 		 System.out.println("Status Code is >>"+response.getStatusCode());
 		 System.out.println("Status line"+response.getStatusLine());

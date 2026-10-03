@@ -77,7 +77,7 @@ public class E2EAPIChaninig {
 		
 		.log().body()
 		.statusCode(200);
-		System.out.println("Created user is "+ExtractedID);
+		//System.out.println("Created user is "+ExtractedID);
 	}
 	
 	
