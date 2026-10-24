@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-03T12:27:42 IST" name="Default suite" finished-at="2026-10-03T12:27:44 IST" duration-ms="2536">
+  <suite started-at="2026-10-03T15:32:07 IST" name="Default suite" finished-at="2026-10-03T15:32:11 IST" duration-ms="3728">
     <groups>
     </groups>
-    <test started-at="2026-10-03T12:27:42 IST" name="Default test" finished-at="2026-10-03T12:27:44 IST" duration-ms="2536">
-      <class name="com.api.testing.CreateRandomUserJavaFakeLibrary">
-        <test-method signature="CreateUsers()[pri:0, instance:com.api.testing.CreateRandomUserJavaFakeLibrary@117e949d]" started-at="2026-10-03T12:27:42 IST" name="CreateUsers" finished-at="2026-10-03T12:27:44 IST" duration-ms="2468" status="PASS">
+    <test started-at="2026-10-03T15:32:07 IST" name="Default test" finished-at="2026-10-03T15:32:11 IST" duration-ms="3728">
+      <class name="com.api.testing.APIChaining">
+        <test-method signature="CreateUser()[pri:1, instance:com.api.testing.APIChaining@4dc27487]" started-at="2026-10-03T15:32:07 IST" name="CreateUser" finished-at="2026-10-03T15:32:10 IST" duration-ms="3023" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateUsers -->
-      </class> <!-- com.api.testing.CreateRandomUserJavaFakeLibrary -->
+        </test-method> <!-- CreateUser -->
+        <test-method signature="UdpateUser()[pri:2, instance:com.api.testing.APIChaining@4dc27487]" started-at="2026-10-03T15:32:10 IST" name="UdpateUser" finished-at="2026-10-03T15:32:11 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UdpateUser -->
+        <test-method signature="DeleteUsers()[pri:3, instance:com.api.testing.APIChaining@4dc27487]" started-at="2026-10-03T15:32:11 IST" name="DeleteUsers" finished-at="2026-10-03T15:32:11 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteUsers -->
+      </class> <!-- com.api.testing.APIChaining -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
