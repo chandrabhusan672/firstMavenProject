@@ -44,7 +44,7 @@ public class APIChaining {
 		 requestBody.put("name", faker.name().fullName());
 		 requestBody.put("email", faker.internet().emailAddress());
 		 requestBody.put("gender", faker.demographic().sex());
-		 requestBody.put("status", "inactive");
+		 requestBody.put("status", "active");
 		 
 		 extractedID=given ()
 		
